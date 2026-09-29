@@ -9,8 +9,8 @@
     { "title": "DMamba: Decomposition-enhanced Mamba for Time Series Forecasting", "status": "arXiv preprint", "authorRole": "First author", "citations": 7, "link": "https://arxiv.org/abs/2602.09081" },
     { "title": "Shinbrot type criteria for energy conservation of the compressible Navier–Stokes equations", "status": "arXiv preprint", "authorRole": "First author", "citations": 1, "link": "https://arxiv.org/abs/2602.13696" },
     { "title": "PhyRL-PINN: Full-Scale Adaptive Physics-Informed Ship Sideslip Estimation via Reinforcement-Learning-Guided Parameter Scheduling", "status": "Ocean Engineering", "authorRole": "Co-first author; code and algorithm implementation", "citations": 0, "jcr": "Q1" },
-    { "title": "Ammonia soft sensor for on-board real-time monitoring: A dual-branch network based on temperature and transient signals", "status": "Major revision", "authorRole": "First author", "jcr": "To be confirmed" },
-    { "title": "Time-series forecasting research project", "status": "AAAI Phase 1", "authorRole": "First author", "jcr": "N/A" },
-    { "title": "Agent-based EEG research project", "status": "Submitted to ICLR", "authorRole": "First author", "jcr": "N/A" }
+    { "title": "Ammonia soft sensor for on-board real-time monitoring: A dual-branch network based on temperature and transient signals", "status": "Major revision", "authorRole": "First author", "journal": "Measurement", "jcr": "Q1 · Instruments & Instrumentation" },
+    { "title": "Time-series forecasting research project", "status": "AAAI Phase 1", "authorRole": "First author", "ccf": "A" },
+    { "title": "Agent-based EEG research project", "status": "Submitted to ICLR", "authorRole": "First author", "ccf": "A" }
   ]
 }
