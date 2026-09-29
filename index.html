@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="个人学术主页，记录教育经历、发表论文、研究项目与学习笔记。" />
+    <title>Lin Xu · Academic Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@500;600;700;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="返回首页">LX<span>.</span></a>
+        <nav class="main-nav" aria-label="主导航">
+          <a class="nav-link active" href="#about">About</a>
+          <a class="nav-link" href="#education">Education</a>
+          <a class="nav-link" href="#publications">Publications</a>
+          <a class="nav-link" href="#projects">Projects</a>
+          <a class="nav-link" href="#notes">Notes</a>
+        </nav>
+        <button class="theme-toggle" type="button" aria-label="切换深色模式" title="切换深色模式">
+          <span class="theme-icon" aria-hidden="true">◐</span>
+          <span class="theme-label">Theme</span>
+        </button>
+      </header>
+
+      <main id="top">
+        <section class="hero section-grid" id="about">
+          <div class="hero-copy">
+            <p class="eyebrow">RESEARCHER · BUILDER · LIFELONG LEARNER</p>
+            <h1>你好，我是<br /><em>Lin Xu</em>。</h1>
+            <p class="hero-lede">我在计算社会科学、机器学习与人机协作的交叉处工作，关注如何把复杂系统转化为更清晰、更可用的工具。</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#publications">查看研究成果 <span>↗</span></a>
+              <a class="text-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+            </div>
+            <div class="hero-meta">
+              <span class="status-dot"></span>
+              <span>Currently open to research collaborations</span>
+            </div>
+          </div>
+          <aside class="hero-card" aria-label="个人简介摘要">
+            <div class="card-index">01 / PROFILE</div>
+            <div class="portrait-placeholder" aria-hidden="true">LX</div>
+            <div class="hero-card-body">
+              <p class="card-label">Based in</p>
+              <p class="card-value">Seattle, WA<br />Pacific Northwest</p>
+              <div class="card-rule"></div>
+              <p class="card-label">Focus</p>
+              <p class="card-value">Human-centered AI<br />Data &amp; Society</p>
+            </div>
+          </aside>
+        </section>
+
+        <section class="metrics section-grid" aria-label="个人概览">
+          <div class="metric"><strong>03</strong><span>发表论文</span></div>
+          <div class="metric"><strong>05</strong><span>研究项目</span></div>
+          <div class="metric"><strong>24</strong><span>学习笔记</span></div>
+          <div class="metric metric-note"><span>“Make the invisible<br />legible.”</span><small>— Research principle</small></div>
+        </section>
+
+        <section class="content-section" id="education">
+          <div class="section-heading">
+            <p class="eyebrow">02 / BACKGROUND</p>
+            <h2>教育经历</h2>
+            <p>在不同学科之间保持移动，寻找值得长期追问的问题。</p>
+          </div>
+          <div class="timeline">
+            <article class="timeline-item">
+              <div class="timeline-year">2023 — 2025</div>
+              <div class="timeline-content">
+                <h3>University of Washington</h3>
+                <p class="timeline-degree">M.S. in Human-Computer Interaction</p>
+                <p>研究方向：可解释机器学习、协作式 AI、数字公共空间。</p>
+              </div>
+              <span class="timeline-mark">↗</span>
+            </article>
+            <article class="timeline-item">
+              <div class="timeline-year">2019 — 2023</div>
+              <div class="timeline-content">
+                <h3>University of Michigan</h3>
+                <p class="timeline-degree">B.S. in Information Science · Minor in Statistics</p>
+                <p>毕业论文：Designing for uncertainty in data-rich environments。</p>
+              </div>
+              <span class="timeline-mark">↗</span>
+            </article>
+            <article class="timeline-item compact">
+              <div class="timeline-year">2022</div>
+              <div class="timeline-content">
+                <h3>Summer Institute in Digital Methods</h3>
+                <p>Computational text analysis · Network science · Open research</p>
+              </div>
+              <span class="timeline-mark">↗</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section publication-section" id="publications">
+          <div class="section-heading inline-heading">
+            <div>
+              <p class="eyebrow">03 / SELECTED WORK</p>
+              <h2>发表与研究</h2>
+            </div>
+            <a class="text-link" href="https://scholar.google.com" target="_blank" rel="noreferrer">Google Scholar <span>↗</span></a>
+          </div>
+          <div class="publication-list">
+            <article class="publication-item">
+              <div class="pub-number">01</div>
+              <div class="pub-main"><p class="pub-type">CONFERENCE PAPER · CHI 2025</p><h3>Making Model Uncertainty Legible in Collaborative Interfaces</h3><p>Lin Xu, Maya Chen, Daniel Ortiz</p></div>
+              <a class="pub-link" href="#" aria-label="查看论文">PDF ↗</a>
+            </article>
+            <article class="publication-item">
+              <div class="pub-number">02</div>
+              <div class="pub-main"><p class="pub-type">JOURNAL ARTICLE · CSCW 2024</p><h3>From Dashboard to Dialogue: Supporting Sensemaking in Public Data</h3><p>Lin Xu, Priya Nair, Jonah Williams</p></div>
+              <a class="pub-link" href="#" aria-label="查看论文">DOI ↗</a>
+            </article>
+            <article class="publication-item">
+              <div class="pub-number">03</div>
+              <div class="pub-main"><p class="pub-type">WORKSHOP PAPER · FAccT 2023</p><h3>Who Gets to Question the Algorithm?</h3><p>Lin Xu, Evelyn Park</p></div>
+              <a class="pub-link" href="#" aria-label="查看论文">PDF ↗</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section" id="projects">
+          <div class="section-heading inline-heading">
+            <div>
+              <p class="eyebrow">04 / IN THE LAB</p>
+              <h2>项目</h2>
+            </div>
+            <span class="section-count">05 total</span>
+          </div>
+          <div class="project-grid">
+            <article class="project-card featured-project"><div class="project-top"><span class="project-tag">01 / TOOLKIT</span><span>2025</span></div><div><h3>Signal / Noise</h3><p>一个帮助研究者审视数据叙事、发现被忽略假设的开放式分析工具。</p></div><a href="#" class="project-arrow" aria-label="查看项目">↗</a></article>
+            <article class="project-card"><div class="project-top"><span class="project-tag">02 / STUDY</span><span>2024</span></div><div><h3>Public Data Stories</h3><p>探索数据新闻中叙事顺序如何影响用户对不确定性的理解。</p></div><a href="#" class="project-arrow" aria-label="查看项目">↗</a></article>
+            <article class="project-card"><div class="project-top"><span class="project-tag">03 / OPEN SOURCE</span><span>2024</span></div><div><h3>Traceable Notes</h3><p>面向文献阅读的轻量级知识管理模板，支持引用链与概念图。</p></div><a href="#" class="project-arrow" aria-label="查看项目">↗</a></article>
+            <article class="project-card"><div class="project-top"><span class="project-tag">04 / FIELDWORK</span><span>2023</span></div><div><h3>Care in the Loop</h3><p>访谈照护工作者，理解自动化系统进入日常工作后的真实摩擦。</p></div><a href="#" class="project-arrow" aria-label="查看项目">↗</a></article>
+          </div>
+        </section>
+
+        <section class="content-section notes-section" id="notes">
+          <div class="section-heading inline-heading">
+            <div><p class="eyebrow">05 / FIELD NOTES</p><h2>学习笔记</h2></div>
+            <div class="filter-group" role="group" aria-label="筛选笔记主题"><button class="filter-button active" data-filter="all">All</button><button class="filter-button" data-filter="ml">ML</button><button class="filter-button" data-filter="design">Design</button><button class="filter-button" data-filter="methods">Methods</button></div>
+          </div>
+          <div class="notes-list">
+            <a class="note-row" data-category="ml" href="#"><span class="note-date">2025.08.12</span><h3>关于 calibration：模型说“我不确定”时，究竟发生了什么？</h3><span class="note-category">ML</span><span class="note-arrow">↗</span></a>
+            <a class="note-row" data-category="design" href="#"><span class="note-date">2025.07.28</span><h3>把 uncertainty 设计成可讨论的对象，而不是误差提示</h3><span class="note-category">DESIGN</span><span class="note-arrow">↗</span></a>
+            <a class="note-row" data-category="methods" href="#"><span class="note-date">2025.06.03</span><h3>半结构化访谈的编码：从标签堆积到概念形成</h3><span class="note-category">METHODS</span><span class="note-arrow">↗</span></a>
+            <a class="note-row" data-category="ml" href="#"><span class="note-date">2025.04.19</span><h3>读论文：Why I’m skeptical of benchmark-driven progress</h3><span class="note-category">ML</span><span class="note-arrow">↗</span></a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div><a class="wordmark" href="#top">LX<span>.</span></a><p>Research, notes, and things in progress.</p></div>
+        <div class="footer-links"><a href="https://github.com" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:hello@example.com">Email ↗</a></div>
+        <p class="copyright">© <span id="current-year">2025</span> Lin Xu</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "name": "Lin Xu",
+  "role": "Researcher · Builder · Lifelong Learner",
+  "location": "Seattle, WA",
+  "email": "hello@example.com",
+  "focus": ["Human-centered AI", "Data & Society"],
+  "education": [
+    {
+      "period": "2023 — 2025",
+      "institution": "University of Washington",
+      "degree": "M.S. in Human-Computer Interaction"
+    },
+    {
+      "period": "2019 — 2023",
+      "institution": "University of Michigan",
+      "degree": "B.S. in Information Science · Minor in Statistics"
+    }
+  ],
+  "publications": [
+    {
+      "year": 2025,
+      "venue": "CHI",
+      "title": "Making Model Uncertainty Legible in Collaborative Interfaces"
+    },
+    {
+      "year": 2024,
+      "venue": "CSCW",
+      "title": "From Dashboard to Dialogue: Supporting Sensemaking in Public Data"
+    }
+  ],
+  "projects": [
+    "Signal / Noise",
+    "Public Data Stories",
+    "Traceable Notes",
+    "Care in the Loop"
+  ]
+}
