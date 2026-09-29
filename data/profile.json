@@ -1,37 +1,16 @@
 {
-  "name": "Lin Xu",
-  "role": "Researcher · Builder · Lifelong Learner",
-  "location": "Seattle, WA",
-  "email": "hello@example.com",
-  "focus": ["Human-centered AI", "Data & Society"],
-  "education": [
-    {
-      "period": "2023 — 2025",
-      "institution": "University of Washington",
-      "degree": "M.S. in Human-Computer Interaction"
-    },
-    {
-      "period": "2019 — 2023",
-      "institution": "University of Michigan",
-      "degree": "B.S. in Information Science · Minor in Statistics"
-    }
-  ],
+  "name": "Ruxuan Chen",
+  "role": "Undergraduate Researcher · Builder · Learner",
+  "affiliation": "Harbin Engineering University / University of Southampton",
+  "degree": "B.Eng. student in Ocean Engineering, 2024–2028",
+  "researchInterests": ["Agent", "AI4Science", "Time series", "AI4Quantum"],
+  "googleScholar": "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AERr9JEQ_4s1oBa_YhUedeL7O_sD4IQev3F_OByEYCS3-NUqiD8oOe6xX-2t8Dcr8oysFM5HBcpZiEdKAFmUZg&user=TQvIFZwAAAAJ",
   "publications": [
-    {
-      "year": 2025,
-      "venue": "CHI",
-      "title": "Making Model Uncertainty Legible in Collaborative Interfaces"
-    },
-    {
-      "year": 2024,
-      "venue": "CSCW",
-      "title": "From Dashboard to Dialogue: Supporting Sensemaking in Public Data"
-    }
-  ],
-  "projects": [
-    "Signal / Noise",
-    "Public Data Stories",
-    "Traceable Notes",
-    "Care in the Loop"
+    { "title": "DMamba: Decomposition-enhanced Mamba for Time Series Forecasting", "status": "arXiv preprint", "authorRole": "First author", "citations": 7, "link": "https://arxiv.org/abs/2602.09081" },
+    { "title": "Shinbrot type criteria for energy conservation of the compressible Navier–Stokes equations", "status": "arXiv preprint", "authorRole": "First author", "citations": 1, "link": "https://arxiv.org/abs/2602.13696" },
+    { "title": "PhyRL-PINN: Full-Scale Adaptive Physics-Informed Ship Sideslip Estimation via Reinforcement-Learning-Guided Parameter Scheduling", "status": "Ocean Engineering", "authorRole": "Co-first author; code and algorithm implementation", "citations": 0, "jcr": "Q1" },
+    { "title": "Ammonia soft sensor for on-board real-time monitoring: A dual-branch network based on temperature and transient signals", "status": "Major revision", "authorRole": "First author", "jcr": "To be confirmed" },
+    { "title": "Time-series forecasting research project", "status": "AAAI Phase 1", "authorRole": "First author", "jcr": "N/A" },
+    { "title": "Agent-based EEG research project", "status": "Submitted to ICLR", "authorRole": "First author", "jcr": "N/A" }
   ]
 }

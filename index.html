@@ -1,166 +1,96 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="个人学术主页，记录教育经历、发表论文、研究项目与学习笔记。" />
-    <title>Lin Xu · Academic Portfolio</title>
+    <meta name="description" content="Ruxuan Chen — undergraduate researcher working on Agent, AI4Science, time series, and AI4Quantum." />
+    <title>Ruxuan Chen · Research Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Serif+SC:wght@500;600;700;900&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Serif:wght@500;600;700;900&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
     <script defer src="script.js"></script>
   </head>
   <body>
     <div class="page-shell">
       <header class="site-header">
-        <a class="wordmark" href="#top" aria-label="返回首页">LX<span>.</span></a>
-        <nav class="main-nav" aria-label="主导航">
+        <a class="wordmark" href="#top" aria-label="Back to top">RC<span>.</span></a>
+        <nav class="main-nav" aria-label="Main navigation">
           <a class="nav-link active" href="#about">About</a>
           <a class="nav-link" href="#education">Education</a>
           <a class="nav-link" href="#publications">Publications</a>
           <a class="nav-link" href="#projects">Projects</a>
           <a class="nav-link" href="#notes">Notes</a>
         </nav>
-        <button class="theme-toggle" type="button" aria-label="切换深色模式" title="切换深色模式">
-          <span class="theme-icon" aria-hidden="true">◐</span>
-          <span class="theme-label">Theme</span>
-        </button>
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode"><span class="theme-icon" aria-hidden="true">◐</span><span class="theme-label">Theme</span></button>
       </header>
 
       <main id="top">
         <section class="hero section-grid" id="about">
           <div class="hero-copy">
-            <p class="eyebrow">RESEARCHER · BUILDER · LIFELONG LEARNER</p>
-            <h1>你好，我是<br /><em>Lin Xu</em>。</h1>
-            <p class="hero-lede">我在计算社会科学、机器学习与人机协作的交叉处工作，关注如何把复杂系统转化为更清晰、更可用的工具。</p>
+            <p class="eyebrow">UNDERGRADUATE RESEARCHER · BUILDER · LEARNER</p>
+            <h1>Hello, I’m<br /><em>Ruxuan Chen</em>.</h1>
+            <p class="hero-lede">I study how intelligent systems can learn from physical processes, reason over complex signals, and support scientific discovery.</p>
             <div class="hero-actions">
-              <a class="button button-primary" href="#publications">查看研究成果 <span>↗</span></a>
-              <a class="text-link" href="mailto:hello@example.com">hello@example.com <span>↗</span></a>
+              <a class="button button-primary" href="#publications">View research <span>↗</span></a>
+              <a class="text-link" href="https://scholar.google.com/citations?hl=en&amp;view_op=list_works&amp;gmla=AERr9JEQ_4s1oBa_YhUedeL7O_sD4IQev3F_OByEYCS3-NUqiD8oOe6xX-2t8Dcr8oysFM5HBcpZiEdKAFmUZg&amp;user=TQvIFZwAAAAJ" target="_blank" rel="noreferrer">Google Scholar <span>↗</span></a>
             </div>
-            <div class="hero-meta">
-              <span class="status-dot"></span>
-              <span>Currently open to research collaborations</span>
-            </div>
+            <div class="hero-meta"><span class="status-dot"></span><span>Open to research conversations and collaborations</span></div>
           </div>
-          <aside class="hero-card" aria-label="个人简介摘要">
+          <aside class="hero-card" aria-label="Profile summary">
             <div class="card-index">01 / PROFILE</div>
-            <div class="portrait-placeholder" aria-hidden="true">LX</div>
+            <img class="portrait-image" src="assets/ruxuan-chen.png" alt="Ruxuan Chen" />
             <div class="hero-card-body">
-              <p class="card-label">Based in</p>
-              <p class="card-value">Seattle, WA<br />Pacific Northwest</p>
-              <div class="card-rule"></div>
-              <p class="card-label">Focus</p>
-              <p class="card-value">Human-centered AI<br />Data &amp; Society</p>
+              <div><p class="card-label">Affiliation</p><p class="card-value">Harbin Engineering University<br />University of Southampton</p></div>
+              <div><p class="card-label">Current focus</p><p class="card-value">Agent · AI4Science<br />Time series · AI4Quantum</p></div>
             </div>
           </aside>
         </section>
 
-        <section class="metrics section-grid" aria-label="个人概览">
-          <div class="metric"><strong>03</strong><span>发表论文</span></div>
-          <div class="metric"><strong>05</strong><span>研究项目</span></div>
-          <div class="metric"><strong>24</strong><span>学习笔记</span></div>
-          <div class="metric metric-note"><span>“Make the invisible<br />legible.”</span><small>— Research principle</small></div>
+        <section class="metrics section-grid" aria-label="Research overview">
+          <div class="metric"><strong>03</strong><span>Scholar-indexed works</span></div>
+          <div class="metric"><strong>04</strong><span>Active research directions</span></div>
+          <div class="metric"><strong>02</strong><span>First-author works in progress</span></div>
+          <div class="metric metric-note"><span>“Understand the system<br />before optimizing it.”</span><small>— Research principle</small></div>
         </section>
 
         <section class="content-section" id="education">
-          <div class="section-heading">
-            <p class="eyebrow">02 / BACKGROUND</p>
-            <h2>教育经历</h2>
-            <p>在不同学科之间保持移动，寻找值得长期追问的问题。</p>
-          </div>
+          <div class="section-heading"><p class="eyebrow">02 / BACKGROUND</p><h2>Education</h2><p>Building a foundation across engineering, mathematics, and machine learning.</p></div>
           <div class="timeline">
-            <article class="timeline-item">
-              <div class="timeline-year">2023 — 2025</div>
-              <div class="timeline-content">
-                <h3>University of Washington</h3>
-                <p class="timeline-degree">M.S. in Human-Computer Interaction</p>
-                <p>研究方向：可解释机器学习、协作式 AI、数字公共空间。</p>
-              </div>
-              <span class="timeline-mark">↗</span>
-            </article>
-            <article class="timeline-item">
-              <div class="timeline-year">2019 — 2023</div>
-              <div class="timeline-content">
-                <h3>University of Michigan</h3>
-                <p class="timeline-degree">B.S. in Information Science · Minor in Statistics</p>
-                <p>毕业论文：Designing for uncertainty in data-rich environments。</p>
-              </div>
-              <span class="timeline-mark">↗</span>
-            </article>
-            <article class="timeline-item compact">
-              <div class="timeline-year">2022</div>
-              <div class="timeline-content">
-                <h3>Summer Institute in Digital Methods</h3>
-                <p>Computational text analysis · Network science · Open research</p>
-              </div>
-              <span class="timeline-mark">↗</span>
-            </article>
+            <article class="timeline-item"><div class="timeline-year">2024 — 2028</div><div class="timeline-content"><h3>Harbin Engineering University / University of Southampton</h3><p class="timeline-degree">B.Eng. student · Ocean Engineering · Joint Institute</p><p>Undergraduate researcher working across scientific machine learning, marine systems, and mathematical modeling.</p></div><span class="timeline-mark">↗</span></article>
+            <article class="timeline-item"><div class="timeline-year">Mathematics</div><div class="timeline-content"><h3>Independent study in analysis and PDEs</h3><p class="timeline-degree">Functional analysis · Sobolev spaces · Partial differential equations</p><p>Discussion-based study around Evans’ <em>Partial Differential Equations</em>, leading to an arXiv mathematical manuscript.</p></div><span class="timeline-mark">↗</span></article>
           </div>
         </section>
 
         <section class="content-section publication-section" id="publications">
-          <div class="section-heading inline-heading">
-            <div>
-              <p class="eyebrow">03 / SELECTED WORK</p>
-              <h2>发表与研究</h2>
-            </div>
-            <a class="text-link" href="https://scholar.google.com" target="_blank" rel="noreferrer">Google Scholar <span>↗</span></a>
-          </div>
+          <div class="section-heading inline-heading"><div><p class="eyebrow">03 / SELECTED WORK</p><h2>Publications</h2></div><a class="text-link" href="https://scholar.google.com/citations?hl=en&amp;view_op=list_works&amp;gmla=AERr9JEQ_4s1oBa_YhUedeL7O_sD4IQev3F_OByEYCS3-NUqiD8oOe6xX-2t8Dcr8oysFM5HBcpZiEdKAFmUZg&amp;user=TQvIFZwAAAAJ" target="_blank" rel="noreferrer">Full Scholar profile <span>↗</span></a></div>
           <div class="publication-list">
-            <article class="publication-item">
-              <div class="pub-number">01</div>
-              <div class="pub-main"><p class="pub-type">CONFERENCE PAPER · CHI 2025</p><h3>Making Model Uncertainty Legible in Collaborative Interfaces</h3><p>Lin Xu, Maya Chen, Daniel Ortiz</p></div>
-              <a class="pub-link" href="#" aria-label="查看论文">PDF ↗</a>
-            </article>
-            <article class="publication-item">
-              <div class="pub-number">02</div>
-              <div class="pub-main"><p class="pub-type">JOURNAL ARTICLE · CSCW 2024</p><h3>From Dashboard to Dialogue: Supporting Sensemaking in Public Data</h3><p>Lin Xu, Priya Nair, Jonah Williams</p></div>
-              <a class="pub-link" href="#" aria-label="查看论文">DOI ↗</a>
-            </article>
-            <article class="publication-item">
-              <div class="pub-number">03</div>
-              <div class="pub-main"><p class="pub-type">WORKSHOP PAPER · FAccT 2023</p><h3>Who Gets to Question the Algorithm?</h3><p>Lin Xu, Evelyn Park</p></div>
-              <a class="pub-link" href="#" aria-label="查看论文">PDF ↗</a>
-            </article>
+            <article class="publication-item"><div class="pub-number">01</div><div class="pub-main"><div class="pub-topline"><span class="pub-type">ARXIV PREPRINT · 2026</span><span class="pub-cites">7 citations</span></div><h3>DMamba: Decomposition-enhanced Mamba for Time Series Forecasting</h3><p class="pub-authors"><strong>Ruxuan Chen</strong>, F. Sun <span class="author-badge">First author</span></p><div class="pub-meta"><span>arXiv:2602.09081</span><span>JCR: N/A · arXiv preprint</span></div></div><a class="pub-link" href="https://arxiv.org/abs/2602.09081" target="_blank" rel="noreferrer">arXiv ↗</a></article>
+            <article class="publication-item"><div class="pub-number">02</div><div class="pub-main"><div class="pub-topline"><span class="pub-type">ARXIV PREPRINT · 2026</span><span class="pub-cites">1 citation</span></div><h3>Shinbrot type criteria for energy conservation of the compressible Navier–Stokes equations</h3><p class="pub-authors"><strong>Ruxuan Chen</strong>, Q. Zhang, Z. Zhang, X. Zheng <span class="author-badge">First author</span></p><div class="pub-meta"><span>arXiv:2602.13696</span><span>JCR: N/A · arXiv preprint</span></div></div><a class="pub-link" href="https://arxiv.org/abs/2602.13696" target="_blank" rel="noreferrer">arXiv ↗</a></article>
+            <article class="publication-item"><div class="pub-number">03</div><div class="pub-main"><div class="pub-topline"><span class="pub-type">JOURNAL ARTICLE · 2026</span><span class="pub-cites">0 citations</span></div><h3>PhyRL-PINN: Full-Scale Adaptive Physics-Informed Ship Sideslip Estimation via Reinforcement-Learning-Guided Parameter Scheduling</h3><p class="pub-authors">B. Yao, <strong>Ruxuan Chen</strong>, F. Han, W. Zhao, X. Peng, S. Zhu, Q. Lin, Z. Zhou <span class="author-badge cofirst">Co-first author</span></p><div class="pub-meta"><span>Ocean Engineering</span><span>JCR: Q1 · Ocean Engineering</span><span>Code &amp; algorithm implementation</span></div></div><a class="pub-link" href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=TQvIFZwAAAAJ&amp;citation_for_view=TQvIFZwAAAAJ:UeHWp8X0CEIC" target="_blank" rel="noreferrer">Scholar ↗</a></article>
+            <article class="publication-item"><div class="pub-number">04</div><div class="pub-main"><div class="pub-topline"><span class="pub-type">JOURNAL MANUSCRIPT · MAJOR REVISION</span><span class="pub-cites">Under revision</span></div><h3>Ammonia soft sensor for on-board real-time monitoring: A dual-branch network based on temperature and transient signals</h3><p class="pub-authors"><strong>Ruxuan Chen</strong> <span class="author-badge">First author</span></p><div class="pub-meta"><span>Journal information pending update</span><span>JCR quartile: to be confirmed</span></div></div><span class="pub-link status-link">Major revision</span></article>
+            <article class="publication-item"><div class="pub-number">05</div><div class="pub-main"><div class="pub-topline"><span class="pub-type">CONFERENCE PAPER · UNDER REVIEW</span><span class="pub-cites">AAAI Phase 1</span></div><h3>Time-series forecasting research project</h3><p class="pub-authors"><strong>Ruxuan Chen</strong> <span class="author-badge">First author</span></p><div class="pub-meta"><span>Submitted to AAAI · Phase 1 passed</span><span>JCR: N/A · conference submission</span></div></div><span class="pub-link status-link">Under review</span></article>
+            <article class="publication-item"><div class="pub-number">06</div><div class="pub-main"><div class="pub-topline"><span class="pub-type">CONFERENCE PAPER · SUBMITTED</span><span class="pub-cites">ICLR submission</span></div><h3>Agent-based EEG research project</h3><p class="pub-authors"><strong>Ruxuan Chen</strong> <span class="author-badge">First author</span></p><div class="pub-meta"><span>Submitted to ICLR</span><span>JCR: N/A · conference submission</span></div></div><span class="pub-link status-link">Submitted</span></article>
           </div>
         </section>
 
         <section class="content-section" id="projects">
-          <div class="section-heading inline-heading">
-            <div>
-              <p class="eyebrow">04 / IN THE LAB</p>
-              <h2>项目</h2>
-            </div>
-            <span class="section-count">05 total</span>
-          </div>
+          <div class="section-heading inline-heading"><div><p class="eyebrow">04 / IN THE LAB</p><h2>Projects</h2></div><span class="section-count">Research in progress</span></div>
           <div class="project-grid">
-            <article class="project-card featured-project"><div class="project-top"><span class="project-tag">01 / TOOLKIT</span><span>2025</span></div><div><h3>Signal / Noise</h3><p>一个帮助研究者审视数据叙事、发现被忽略假设的开放式分析工具。</p></div><a href="#" class="project-arrow" aria-label="查看项目">↗</a></article>
-            <article class="project-card"><div class="project-top"><span class="project-tag">02 / STUDY</span><span>2024</span></div><div><h3>Public Data Stories</h3><p>探索数据新闻中叙事顺序如何影响用户对不确定性的理解。</p></div><a href="#" class="project-arrow" aria-label="查看项目">↗</a></article>
-            <article class="project-card"><div class="project-top"><span class="project-tag">03 / OPEN SOURCE</span><span>2024</span></div><div><h3>Traceable Notes</h3><p>面向文献阅读的轻量级知识管理模板，支持引用链与概念图。</p></div><a href="#" class="project-arrow" aria-label="查看项目">↗</a></article>
-            <article class="project-card"><div class="project-top"><span class="project-tag">04 / FIELDWORK</span><span>2023</span></div><div><h3>Care in the Loop</h3><p>访谈照护工作者，理解自动化系统进入日常工作后的真实摩擦。</p></div><a href="#" class="project-arrow" aria-label="查看项目">↗</a></article>
+            <article class="project-card featured-project"><div class="project-top"><span class="project-tag">01 / MATHEMATICS</span><span>ARXIV</span></div><div><h3>PDEs, Functional Analysis &amp; Sobolev Spaces</h3><p>Discussion-led study of Evans’ <em>Partial Differential Equations</em>, functional analysis, and Sobolev spaces, developed into a mathematical arXiv paper.</p></div><a href="https://arxiv.org" target="_blank" rel="noreferrer" class="project-arrow" aria-label="View arXiv">↗</a></article>
+            <article class="project-card"><div class="project-top"><span class="project-tag">02 / AI4SCIENCE</span><span>2026</span></div><div><h3>Physics-informed marine modeling</h3><p>Implementing code and algorithm components for adaptive physics-informed learning in ship dynamics.</p></div><a href="#publications" class="project-arrow" aria-label="View related publication">↗</a></article>
+            <article class="project-card"><div class="project-top"><span class="project-tag">03 / TIME SERIES</span><span>2026</span></div><div><h3>Decomposition-enhanced forecasting</h3><p>Exploring decomposition, state-space structure, and Mamba-style sequence models for long-horizon forecasting.</p></div><a href="https://arxiv.org/abs/2602.09081" target="_blank" rel="noreferrer" class="project-arrow" aria-label="View paper">↗</a></article>
+            <article class="project-card"><div class="project-top"><span class="project-tag">04 / AGENTS</span><span>2026</span></div><div><h3>Agentic EEG research</h3><p>Building an agent-oriented workflow for reasoning over EEG signals and supporting reproducible research.</p></div><a href="#publications" class="project-arrow" aria-label="View related submission">↗</a></article>
           </div>
         </section>
 
         <section class="content-section notes-section" id="notes">
-          <div class="section-heading inline-heading">
-            <div><p class="eyebrow">05 / FIELD NOTES</p><h2>学习笔记</h2></div>
-            <div class="filter-group" role="group" aria-label="筛选笔记主题"><button class="filter-button active" data-filter="all">All</button><button class="filter-button" data-filter="ml">ML</button><button class="filter-button" data-filter="design">Design</button><button class="filter-button" data-filter="methods">Methods</button></div>
-          </div>
-          <div class="notes-list">
-            <a class="note-row" data-category="ml" href="#"><span class="note-date">2025.08.12</span><h3>关于 calibration：模型说“我不确定”时，究竟发生了什么？</h3><span class="note-category">ML</span><span class="note-arrow">↗</span></a>
-            <a class="note-row" data-category="design" href="#"><span class="note-date">2025.07.28</span><h3>把 uncertainty 设计成可讨论的对象，而不是误差提示</h3><span class="note-category">DESIGN</span><span class="note-arrow">↗</span></a>
-            <a class="note-row" data-category="methods" href="#"><span class="note-date">2025.06.03</span><h3>半结构化访谈的编码：从标签堆积到概念形成</h3><span class="note-category">METHODS</span><span class="note-arrow">↗</span></a>
-            <a class="note-row" data-category="ml" href="#"><span class="note-date">2025.04.19</span><h3>读论文：Why I’m skeptical of benchmark-driven progress</h3><span class="note-category">ML</span><span class="note-arrow">↗</span></a>
-          </div>
+          <div class="section-heading inline-heading"><div><p class="eyebrow">05 / FIELD NOTES</p><h2>Notes</h2></div><div class="filter-group" role="group" aria-label="Filter notes"><button class="filter-button active" data-filter="all">All</button><button class="filter-button" data-filter="math">Math</button><button class="filter-button" data-filter="ai">AI</button><button class="filter-button" data-filter="methods">Methods</button></div></div>
+          <div class="notes-list"><a class="note-row" data-category="math" href="#"><span class="note-date">Reading</span><h3>What Evans’ PDEs makes visible about weak solutions</h3><span class="note-category">MATH</span><span class="note-arrow">↗</span></a><a class="note-row" data-category="math" href="#"><span class="note-date">Study note</span><h3>Functional analysis, Sobolev spaces, and the language of regularity</h3><span class="note-category">MATH</span><span class="note-arrow">↗</span></a><a class="note-row" data-category="ai" href="#"><span class="note-date">Research log</span><h3>What should an agent remember when the signal is a time series?</h3><span class="note-category">AI</span><span class="note-arrow">↗</span></a><a class="note-row" data-category="methods" href="#"><span class="note-date">Working note</span><h3>From physical constraints to trainable scientific models</h3><span class="note-category">METHODS</span><span class="note-arrow">↗</span></a></div>
         </section>
       </main>
 
-      <footer class="site-footer">
-        <div><a class="wordmark" href="#top">LX<span>.</span></a><p>Research, notes, and things in progress.</p></div>
-        <div class="footer-links"><a href="https://github.com" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:hello@example.com">Email ↗</a></div>
-        <p class="copyright">© <span id="current-year">2025</span> Lin Xu</p>
-      </footer>
+      <footer class="site-footer"><div><a class="wordmark" href="#top">RC<span>.</span></a><p>Research, notes, and things in progress.</p></div><div class="footer-links"><a href="https://github.com/Csusheu/csusheu.github.io" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://scholar.google.com/citations?hl=en&amp;view_op=list_works&amp;gmla=AERr9JEQ_4s1oBa_YhUedeL7O_sD4IQev3F_OByEYCS3-NUqiD8oOe6xX-2t8Dcr8oysFM5HBcpZiEdKAFmUZg&amp;user=TQvIFZwAAAAJ" target="_blank" rel="noreferrer">Google Scholar ↗</a></div><p class="copyright">© <span id="current-year">2026</span> Ruxuan Chen</p></footer>
     </div>
   </body>
 </html>
